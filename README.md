@@ -241,8 +241,8 @@ Description](#23-overall-description)
 1. Introduction
 -----------------
 
-
-
+Content
+=================
 2. Software Requirements Specification (SRS)
 -----------------------------------------------
 
@@ -291,7 +291,9 @@ System interface for our project includes: collision detector hardware, database
 
 ####2.3.2 Database
 
-We are going to use the GoDaddy's database to store the information about the user, the accident, the driver they had an accident with and the car that the other driver was using. For the user infomration, we are going to store the username password and its user's id. For the password, we are going to encrypt the user's password using MD5 to protect the password just in case someone tries to hack our system. In accident table, we are going to the store the reporrtId, incident date, video name, longitude and latitude. In the driver table, we are going to store the other driver's license, first name,, last name, gender and insurance number.  In the car's table, we are goint ot store the other driver' car information such as plate number, brand, model and the year it was manufactured. (Worked on by: Jerome, Jabneel)
+We are going to use the GoDaddy's database to store the information about the user, the accident, the driver they had an accident with and the car that the other driver was using. For the user infomration, we are going to store the username password and its user's id. For the password, we are going to encrypt the user's password using MD5 to protect the password just in case someone tries to hack our system. In accident table, we are going to the store the reporrtId, incident date, video name, longitude and latitude. In the driver table, we are going to store the other driver's license, first name,, last name, gender and insurance number.  In the car's table, we are going to store the other driver' car information such as plate number, brand, model and the year it was manufactured. (Jerome)
+
+A separate database will be made for car makes and car models. This will then be used
 
 
 ####2.3.3 Hardware
